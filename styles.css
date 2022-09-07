@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+
+/*   Screen Adjusted     */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainHeader{
+    margin-top: 30px;
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.subHeader{
+    margin-top: 5px;
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+body{
+    background: #aa4b6b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+
+form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+input,
+button{
+    background-color: white;
+    border: none;
+    font-size: 1.3rem;
+    padding: 8px 10px;
+}
+
+input{
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.digi-container{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+
+.digi-box{
+    margin: 13px 10px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    border-radius: 32px;
+    padding: 5px;
+}
+
+.digi-box img{
+    margin: 10px 0;
+    width: 80%;
+}
+
+.digi-box h4{
+    font-size: 1.4rem;
+    margin: 5px auto;
+}
+
+.digi-box p{
+    margin: auto;
+}
+
+
+
+
+
+
